@@ -8,3 +8,5 @@ var time = currentTimeEl.getHours() + ":" +
 currentTimeEl.getMinutes() + ":" +
 currentTimeEl.getSeconds();
 document.getElementById("currentTime").value = time;
+
+$( "time-block" ).html("Add Event ...");
